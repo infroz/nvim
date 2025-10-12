@@ -5,7 +5,9 @@
 set -e
 
 # Navigate to the neovim source directory
-cd ~/neovim
+# update: adjust path to install in config location
+mkdir -p ~/config/nvim/neovim.git/
+cd ~/config/nvim/neovim.git/
 
 echo "--- Pulling latest changes from nightly branch ---"
 git pull origin nightly
