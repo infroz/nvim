@@ -1,2 +1,5 @@
 # ignore neovim repo
 /neovim.git
+
+# ignore pack-lock
+/lazy-lock.json
